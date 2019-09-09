@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".robertdowney"
+        android:background="@drawable/frmrgt">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:fillViewport="true"
+                android:layout_marginTop="0dp"
+                android:id="@+id/scrollView5">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="435dp"
+                    android:src="@drawable/rdj"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:textColorLink="@android:color/black"
+                    android:textSize="18sp"
+                    android:text="Robert Downey Jr"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="#090000"
+                    android:textColorLink="@android:color/black"
+                    android:textSize="18sp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/JNtxt"
+                    android:textStyle="bold"/>
+            <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/Jlst"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginTop="30dp"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:gravity="center"
+                      android:background="@android:color/black"
+                      android:textColor="@android:color/holo_orange_light"
+                      android:text="Some of his great movies are:"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="Iron Man"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:layout_marginTop="20dp"
+                      android:textColor="@android:color/holo_orange_light"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="606dp"
+                    android:src="@drawable/iron"
+                    android:id="@+id/IRONweb"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="The Avengers"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:layout_marginTop="20dp"
+                      android:textColor="@android:color/holo_orange_light"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="670dp"
+                    android:src="@drawable/tavg"
+                    android:id="@+id/TAVGweb"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="Tropic Thunder"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:layout_marginTop="20dp"
+                      android:textColor="@android:color/holo_orange_light"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="674dp"
+                    android:src="@drawable/trpthn"
+                    android:id="@+id/TRPTweb"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="Chaplin"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:layout_marginTop="20dp"
+                      android:textColor="@android:color/holo_orange_light"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="593dp"
+                    android:src="@drawable/chap"
+                    android:id="@+id/CHAPweb"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="Sherlock Holmes"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:layout_marginTop="20dp"
+                      android:textColor="@android:color/holo_orange_light"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="348dp"
+                    android:src="@drawable/shom"
+                    android:id="@+id/SHOMweb"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                    <ImageView
+                            android:id="@+id/vBak"
+                            style="@style/ActionButtonStyle"
+                            android:src="@drawable/twitter"
+                            android:scaleType="center"
+                    />
+                    <ImageView
+                            android:id="@+id/tvBak"
+                            style="@style/ActionButtonStyle"
+                            android:src="@drawable/instagram"
+                            android:scaleType="center"
+                    />
+                    <ImageView
+                            android:id="@+id/tack"
+                            style="@style/ActionButtonStyle"
+                            android:src="@drawable/youtube"
+                            android:scaleType="center"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
